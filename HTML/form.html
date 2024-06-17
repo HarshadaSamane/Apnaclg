@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <button type="submit">Hello</button>
+    <form action="/action">
+        <!-- in lable the element written in for attribute is id  -->
+       <div>
+        <label for="username">username:</label>
+        <input type="text" placeholder="Enter username" id="username" name="username">
+       </div>
+    
+       <div>
+        <label for="password">password:</label>
+        <input type="password" placeholder="Enter password" id="password" name="pass">
+       </div>
+        
+        <div>
+            <label for="age">Age: </label>
+            <input type="number" placeholder="age" id="age">
+        </div>
+
+        <button>Submit</button>
+        <button type="submit">type1</button>
+        <button type="button">hello</button>
+        <button type="reset">reset</button>
+        <br>
+        <br>
+        <input type="button" value="click me">
+        <input type="submit" value="click me b2">
+    </form>
+
+        <hr>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="search in youtube" name="search_query">
+        <button>search</button>
+    </form>
+    <hr>
+    <form action="/server">
+        <input type="checkbox" id="age" name="age">
+        <label for="age">I am 18+</label>
+        
+        <br>
+
+        <input type="checkbox" id="age" name="age" checked/>
+        <label for="age">I am 10+</label>
+        <br>
+
+        <div>
+            <input type="radio" name="fruit" id="apple" value="apple" >
+            <label for="apple">Apple</label>
+
+            <input type="radio" name="fruit" id="mango" value="mango">
+            <label for="mango">Mango</label>
+
+            <input type="radio" name="fruit" id="banana" value="banana">
+            <label for="banana">Banana</label>
+        </div>
+
+        <div>
+            Choose your Subjects
+            <br>
+            <input type="checkbox" id="Maths" name="Subjects" value="math">
+            <label for="Maths">Maths</label>
+            <br>
+
+            <input type="checkbox" id="Physics" name="Subjects" value="phy"> 
+            <label for="Physics">Physics</label>
+            <br>
+
+            <input type="checkbox" id="Chemistry" name="Subjects" value="chem">
+            <label for="Chemistry">Chemistry</label>
+            <br>
+
+            <input type="checkbox" id="Data_Scienceub" name="Subjects" value="ds">
+            <label for="Data_Scienceb">Data_Science</label>
+        </div>
+
+       
+        <!-- Dropdown -->
+
+        Choose your profession
+        <select name="profession" id="profession">
+            <option value="stud">Student</option>
+            <option value="dev" selected>Devloper</option>
+        </select>
+        <br>
+
+        <label for="vol"> Select your volume level:</label>
+            <input type="range" id="vol" min="0" max="100" name="volume" step="10" value="60">
+        <br>
+
+        <label for="feedback">Please give your feedback:</label>
+        <textarea name="feedback" id="feedback"></textarea>
+        <button>submit</button>
+        
+    </form>
+
+</body>
+</html>

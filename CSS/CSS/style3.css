@@ -1,0 +1,30 @@
+div {
+    height: 200px;
+    width: 600px;
+    background-color: rgb(232, 141, 171);
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+    border: 5px solid black;
+    /* border-left-color: blue;
+    border-left-style: dashed; */
+    border-radius: 15px;
+    border-top-right-radius:50px ;
+    padding-top: 10px;
+    /* margin-bottom: 25px;
+    margin-left: 10px; */
+    margin: 20px;
+}
+
+h1 {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: purple;
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+}

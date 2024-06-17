@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Level-3</title>
+  </head>
+  <body>
+    <!-- Q1.Table -->
+    <table border="black">
+      <caption>
+        Student Information
+      </caption>
+      <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Address</th>
+      </tr>
+
+      <tr>
+        <th>City</th>
+        <th>House</th>
+      </tr>
+
+      <tr>
+        <td>A</td>
+        <td>Mumbai</td>
+        <td>1</td>
+      </tr>
+
+      <tr>
+        <td>B</td>
+        <td>Pune</td>
+        <td>2</td>
+      </tr>
+
+      <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+      </tr>
+
+      <tr>
+        <td>D</td>
+        <td>Delhi</td>
+        <td>4</td>
+      </tr>
+    </table>
+
+    <!-- Q.2 Form -->
+
+    <form action="/submit">
+      <label for="name">Name:</label><br />
+      <input type="text" name="name" id="name" placeholder="Enter your name" />
+      <br />
+      <br />
+
+      <label for="sex">Sex: </label>
+      <input type="radio" id="male" name="sex" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="sex" value="female" />
+      <label for="female">Female</label><br />
+      <br />
+
+      <label for="country">Country: </label>
+      <select name="country" id="country">
+        <option value="india">India</option>
+        <option value="spain">Spain</option>
+        <option value="china">China</option>
+        <option value="america">USA</option>
+        <option selected>Select your country</option></select
+      ><br /><br />
+
+      <!-- messge -->
+      <label for="feedback">Feedback: </label> <br>
+      <textarea
+        name="feedback"
+        id="feedback"
+        rows="6"
+        cols="50"
+        placeholder="Enter your feedback"
+      ></textarea>
+      <br /><br />
+
+      <!-- subscribe checkbox  -->
+      <input type="checkbox" id="sub" />
+      <label for="sub">Subscribe?</label>
+      <br />
+      <br />
+
+      <!-- submit button  -->
+      <button>Submit</button>
+    </form>
+
+    <!-- q3 form  -->
+    <h2>Feedback Form </h2>
+    <form action="/submit">
+      <label for="name">Name:</label><br />
+      <input type="text" name="name" id="name" placeholder="Enter your name" />
+      <br />
+      <br />
+
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your Email"
+      />
+      <br />
+      <br />
+
+      <!-- messge -->
+      <label for="message">Message: </label> <br />
+      <textarea
+        name="message"
+        id="message"
+        rows="6"
+        cols="50"
+        placeholder="Enter your message"
+      ></textarea>
+      <br /><br />
+
+      <label for="rate">Rate us out of 5: </label> <br />
+      <input type="radio" name="rate" value="1" id="one" />
+      <label for="one">1</label> <br />
+      <input type="radio" name="rate" value="2" id="two" />
+      <label for="two">2</label> <br />
+      <input type="radio" name="rate" value="3" id="three" />
+      <label for="three">3</label> <br />
+      <input type="radio" name="rate" value="4" id="four" />
+      <label for="four">4</label> <br />
+      <input type="radio" name="rate" value="5" id="five" />
+      <label for="five">5</label> <br />
+
+      <!-- submit button  -->
+      <button>Send your message!</button>
+    </form>
+  </body>
+</html>
