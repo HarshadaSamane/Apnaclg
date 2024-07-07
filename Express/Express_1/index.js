@@ -13,8 +13,11 @@ app.get("/", (req, res) => {
 
 // QUERY STRING
 app.get("/search", (req, res) => {
-  console.log(req.query);
-  res.send("no results");
+  let {q} = req.query;
+  if(!q) {
+    res.send(`<h1>Nothing Searched</h1>`);
+  }
+  res.send(`<h1>Search result for query: ${q}</h1>`);
 });
 
 // PATH PARAMETERS
