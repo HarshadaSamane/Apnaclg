@@ -1,0 +1,6 @@
+Variables and Data Types
+
+The file name and class name should be same 
+
+To run the file: javac filename.java
+and then : java filename.java-
