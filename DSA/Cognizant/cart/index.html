@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+
+    <table border="1" id="itemsTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chips</td>
+                <td><button id="addToCartChips">Add to cart</button></td>
+            </tr>
+            <tr>
+                <td>Soda</td>
+                <td><button id="addToCartSoda">Add to cart</button></td>
+            </tr>
+            <tr>
+                <td>Cookies</td>
+                <td><button id="addToCartCookies">Add to cart</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Shopping Cart</h2>
+    <table border="1" id="cartTable">
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chips</td>
+                <td id="chipsQuantity">0</td>
+            </tr>
+            <tr>
+                <td>Soda</td>
+                <td id="sodaQuantity">0</td>
+            </tr>
+            <tr>
+                <td>Cookies</td>
+                <td id="cookiesQuantity">0</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
