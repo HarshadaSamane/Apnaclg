@@ -2,7 +2,11 @@ package Questions.DividenCon_23;
 
 public class rsorted {
 
+<<<<<<< Updated upstream
     public static int search(int arr[], int tar, int si, int ei) {
+=======
+    public static int search(int[] arr, int tar, int si, int ei) {
+>>>>>>> Stashed changes
         if(si > ei) {
             return -1;
         }
@@ -13,6 +17,7 @@ public class rsorted {
             return mid;
         }
 
+<<<<<<< Updated upstream
         //mid on L1
         if(arr[si] < arr[mid]) {
             //case a: left part
@@ -43,5 +48,12 @@ public class rsorted {
         int tarIdx = search(arr, tar, 0, arr.length-1);
         System.out.println(tarIdx);
 
+=======
+        return 0;
+    }
+    public static void main(String[] args) {
+        int arr[] = {2, 3};
+        
+>>>>>>> Stashed changes
     }
 }
